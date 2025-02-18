@@ -32,7 +32,7 @@ describe("ClientInfoForm Component", () => {
   });
 
   it("renders all form fields with correct labels", () => {
-    const formRef = { current: null } as React.RefObject<FormInstance>;
+    const formRef = { current: null };
 
     render(<ClientInfoForm formRef={formRef} />);
 
